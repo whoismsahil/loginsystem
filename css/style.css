@@ -1,0 +1,96 @@
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    font-family: 'Heebo', sans-serif;
+                                }
+                                
+                                nav {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    padding: 1rem 5rem;
+                                    background: rgb(143, 143, 214);
+                                }
+                                
+                                h2 {
+                                    font-size: 5rem;
+                                }
+                                
+                                ul {
+                                    display: flex;
+                                    list-style: none;
+                                    align-items: center;
+                                }
+                                
+                                a {
+                                    text-decoration: none;
+                                    font-size: 1.2rem;
+                                    color: rgb(7, 7, 7);
+                                    margin-left: 5rem;
+                                }
+                                
+                                .logo {
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 50%;
+                                    font-size: 1.5rem;
+                                    align-items: center;
+                                    transform: translate(-50%, -50%) scale(6);
+                                }
+                                
+                                .first-page {
+                                    height: 100vh;
+                                    background: rgb(27, 27, 27);
+                                    color: #fcfcfc;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                }
+                                
+                                .home {
+                                    height: 100vh;
+                                }
+                                
+                                .first-page img {
+                                    height: 100%;
+                                }
+                                
+                                .intro {
+                                    position: relative;
+                                }
+                                
+                                .registration-form {
+                                    width: 400px;
+                                    position: absolute;
+                                    left: 50%;
+                                    transform: translate(-50%, 0%);
+                                    top: 15%;
+                                }
+                                
+                                form {
+                                    position: absolute;
+                                }
+                                
+                                form input {
+                                    background: lighten(rgb(243, 243, 251), 5%);
+                                    color: rgb(143, 143, 214);
+                                    width: 80%;
+                                    border: 0;
+                                    padding: 20px 40px;
+                                    margin: 0;
+                                }
+                                
+                                .btn {
+                                    display: block;
+                                    width: 80%;
+                                    padding: 20px;
+                                    -webkit-appearance: none;
+                                    outline: 0;
+                                    border-radius: 20;
+                                    color: white;
+                                    background: rgb(37, 37, 49);
+                                    transition: 0.3s;
+                                }
